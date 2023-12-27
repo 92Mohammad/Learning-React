@@ -1,0 +1,33 @@
+Root Component => -> The App is the main or root Component of React application
+                  -> It is starting point of React Component tree
+
+Virtua Dom => -> React create an in-memory-structure called the virtual dom.
+              -> It is different from browser actual dom.
+              -> It is lghtweighted representation where each node stand for a component and it's attributes.
+
+Reconcillatio process => -> When component data changes, React update the virtual dom state to mirror these changes.
+                         -> React then compare the current and previous virtual Dom's.
+                         -> It identify the specific nodes that needs to be updating.
+                         -> Only these nodes are updated in real browser Dom , making it more efficient.
+
+React and React Dom => -> The actual updating of the browser's Dom is not done by react itself. It is handled by a library called "react-dom".
+
+Root Element => The root div acts as a container for the react application.
+                The script tag where the React app start excecuting.
+                if you check main.js the component tree is render inside this root Element
+
+StrictMode component => -> It is special component in react
+                        -> Does not have a visual representation.
+                        -> It purpose is to spot potential issues in your react Component.
+
+React , Angular, Vue => React is a library while Angular and Vue.js are  frameworks.
+                        React focuses on UI , Angular and Vue.js offers comprehensive tools for full app development
+
+Library Vs frameworks => -> A library offers specific functionality.
+                         -> A frameworks provides set of tools and guidelines.
+                         -> In simple term React is a tool and Angular and Vue.js are toolset.
+
+React speciaity => React main role is crafting dynamic interactive UI's 
+                   It does not handle routing , Http calls state management and more.
+
+  
